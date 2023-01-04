@@ -93,7 +93,7 @@ class MainActivity : ComponentActivity() {
         )
         val pagerState = rememberPagerState(
             pageCount = items.size,
-            initialOffscreenLimit = 2,
+            //initialOffscreenLimit = 2,
             infiniteLoop = false,
             initialPage = 0
         )
